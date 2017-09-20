@@ -13,7 +13,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "url": "https://github.com/askov/request-header-parser-microservice/tree/glitch"
   },
   "author": "Aleksandr Askov",
   "license": "MIT",
