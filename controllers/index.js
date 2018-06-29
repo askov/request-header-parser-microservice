@@ -1,7 +1,7 @@
 const express = require('express'),
   router = express.Router();
 
-router.use('/api/whoami', (req, res) => {
+router.get('/api/whoami', (req, res) => {
   const ipaddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
   const language = req.headers['accept-language'];
   const software = req.headers['user-agent'];
@@ -12,7 +12,7 @@ router.use('/api/whoami', (req, res) => {
   });
 });
 
-router.use('/', (req, res) => {
+router.get('/', (req, res) => {
   const examples = [
     `${process.env.HOST}/api/whoami`,
   ];
