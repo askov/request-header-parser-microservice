@@ -15,6 +15,9 @@
     "api projects",
     "request header parser microservice"
   ],
+  "repository": {
+    "url": "https://github.com/askov/request-header-parser-microservice"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
